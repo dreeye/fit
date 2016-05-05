@@ -1,0 +1,16 @@
+{
+    "require": {
+        "joshcam/mysqli-database-class": "dev-master",
+        "predis/predis": "^1.0"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "Fit\\Conf\\":"application/conf/",
+            "Fit\\Lib\\":"application/library/"
+        } 
+
+    }
+
+
+}
